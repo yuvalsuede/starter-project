@@ -28,11 +28,11 @@ The project is built with Angular Material (https://material.angular.io/) and fo
 |- app.routing.module.ts  // the main routing module that loads each child route
 |- app-context.service.ts // the single source of truth in the system. AppContext is the app state. 
 
+```
+
 ## AppContext
 AppContext is declaring BLs (business logic) that later are binded in the parent module of the BL. 
 BL state can then be reffered from AppContext using Getter/Setter: 
-```
-
 ```
 // AppContext.ts
 
