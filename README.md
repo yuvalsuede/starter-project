@@ -9,6 +9,7 @@ The project is built with Angular Material (https://material.angular.io/) and fo
 
 ## Main Project stracture
 
+```
 - App
 |------- Common // holds common and shared modules, services and components
 |        |
@@ -30,6 +31,7 @@ The project is built with Angular Material (https://material.angular.io/) and fo
 ## AppContext
 AppContext is declaring BLs (business logic) that later are binded in the parent module of the BL. 
 BL state can then be reffered from AppContext using Getter/Setter: 
+```
 
 ```
 // AppContext.ts
